@@ -4,7 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Form</title>
   </head>
-  <body></body>
+  <body>
+
+    <div id="h1">
+      <h1>Registration Form</h1>
+    </div>
+
+    <div id="form">
+      <form>
+        <label for="name">Full Name </label>
+        <input type="text" id="name" /><br />
+      </form>
+
+      <form>
+        <label for="name">Email</label>
+        <input type="text" id="name" /><br />
+      </form>
+
+      <form>
+        <label for="birthday">Date Of Birth</label>
+        <input type="date" id="birthday" name="birthday" /><br />
+      </form>
+
+      <form>
+        <label>Gender</label>
+        <input type="radio" id="male" />
+        <label>Male</label>
+        <input type="radio" id="female" />
+        <label>Female</label><br />
+      </form>
+
+      <form>
+        <label for="course">Select a Course:</label>
+        <select id="course" name="course" required>
+          <option value="" disabled selected>Select your course</option>
+          <option value="math101">Math 101</option>
+          <option value="eng202">English 202</option>
+          <option value="cs303">Computer Science 303</option>
+          <option value="phy404">Physics 404</option>
+        </select>
+        <br />
+      </form>
+
+      <form>
+        <input type="submit" value="submit" />
+        <input type="reset" value="reset" />
+      </form>
+    </div>
+  </body>
 </html>
